@@ -37,9 +37,11 @@ def insert_student(payload):
     if not Message_body:
         abort(400)
     name = Message_body.get('name', None)
-    if not name :
+    level = Message_body.get('level', None)
+    if not name or not level:
         abort(400)
     New_student.name = name
+    New_student.level = level
     New_student.insert()
     return jsonify({'success': True})
 
