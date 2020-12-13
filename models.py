@@ -5,9 +5,8 @@ import os
 db = SQLAlchemy()
 
 def setup_db(app):
-    app.config.from_envvar('app_setting')
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = os.environ.get('Trak_Modification')
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DB_Path')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=os.environ.get('DB_trak')
     db.app = app
     db.init_app(app)
     migrate = Migrate(app, db)
