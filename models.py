@@ -1,15 +1,17 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-
+import os
 
 db = SQLAlchemy()
 
 def setup_db(app):
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://@localhost:5432/academy' # don't forget to change this
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    app.config.from_envvar('app_setting')
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = os.environ.get('Trak_Modification')
     db.app = app
     db.init_app(app)
     migrate = Migrate(app, db)
+
 class Courses(db.Model):
     __tablename__ = 'courses'
     id = db.Column(db.Integer, primary_key=True)
