@@ -17,7 +17,7 @@ This project avaliable on https://awesome-academy.herokuapp.com avaliable endpoi
 4- patch : https://awesome-academy.herokuapp.com/courses/2 : used to update specific course.
 5- post: https://awesome-academy.herokuapp.com/courses : used to create new course. 
 6- post: https://awesome-academy.herokuapp.com/students : used to create new student. 
-Note: there is unit testing included to get the needed tempary access for testing purpose file name: . 
+Note: there is unit testing included to get the needed tempary access for testing purpose file name:academyTests.postman_collection.json. 
 # Error handling 
 During using  awesome-academy API you may recieve one of these:
     * 404 –-> resource not found
