@@ -27,7 +27,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]
@@ -43,7 +43,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"computer sicinse\",\n    \"courseTimePeriod\":\"Night\"\n    \n}"
+					"raw": "{\n    \"name\": \"data analysis\",\n    \"courseTimePeriod\":\"Afternoon\"\n}"
 				},
 				"url": {
 					"raw": "https://awesome-academy.herokuapp.com/courses",
@@ -68,7 +68,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY5YTU3YWE3NWIyZjYwMDY5YWNiMGRlIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDYxMiwiZXhwIjoxNjA4ODk3MDEyLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmNvdXJzZXNfZGV0YWlscyJdfQ.aLpvKSdnAiCT9JfaZyeHPLxtWyAuZ2e-lJ9W5TW8p4s-VTtOpkYQ-7tM6kDSi77dnPhCuut1PSZ7Wx8ST67w69K11TwWXQApCIh9v5ZTSZHoshLCw9bZ77hGPCyr8CFu7rNX_VFJvIYIspUV_ZyDS6F0Axywq0DePfsgmj1bJphprKwLKlEXuR-R8LpOZA6nv8DYg-WnlRrzw-4FLyD2W_S0DSCm9IG-qCofvtEODhSs_IMGSQVSxAiTgJ60hdUTNi8m0M5gKbLMuJePiiAp-Phd1tqpnjHKJYnp9bSMDacuhpcUNVdRZVZSUeRuYykBat8gpjphQcJCTeeZ2TlUUQ",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY5YTU3YWE3NWIyZjYwMDY5YWNiMGRlIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjI1OCwiZXhwIjoxNjA5MTM4NjU4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmNvdXJzZXNfZGV0YWlscyJdfQ.QdObyNNTSR2xrp7l42giWv6ZIn-jQHnE6WeHcJVhVQSF9dFHuU7EIcQs5XxBXR2Gng-0_Nls7N8doKF88uRh8Ifg6-MHxihc3iOtn8W0CHdg2yjtNln3P8aSGYCGLUIBZPIDQpTOtFIIWT4scZGxJrAcQJ3cbROpRbm8znzDfbAOT5JeCHRGG55snOnuoxyNZQ_GMkbfZkc98XV3c2d9KGiP83weRlZGmSc03Bqf-4K0GSjVw7FiV5MSnNRQkG1POzNUKc7iV7UfVIRaiupwJDy6texx4VtXFUNOPuGCLI5j0CzrW9detD3B3Der7EHx3DnyN4DADcpc070k9J6fhg",
 							"type": "string"
 						}
 					]
@@ -98,7 +98,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]
@@ -107,7 +107,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"computer science\",\n    \"courseTimePeriod\":\"Night\"\n    \n}",
+					"raw": "{\n    \"name\": \"computer science\",\n    \"courseTimePeriod\":\"Night\"   \n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -138,7 +138,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]
@@ -146,7 +146,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://awesome-academy.herokuapp.com/courses/5",
+					"raw": "https://awesome-academy.herokuapp.com/courses/6",
 					"protocol": "https",
 					"host": [
 						"awesome-academy",
@@ -155,7 +155,7 @@
 					],
 					"path": [
 						"courses",
-						"5"
+						"6"
 					]
 				}
 			},
@@ -169,7 +169,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]
@@ -199,7 +199,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]
@@ -208,7 +208,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Abdullah\",\n    \"level\": \"elementary\"\n    \n}",
+					"raw": "{\n    \"name\": \"Maha\",\n    \"level\": \"secondary\"\n    \n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -295,7 +295,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwODgxMDM0OCwiZXhwIjoxNjA4ODk2NzQ4LCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.SFqvOTHNUDn2iobRIIEYhtIgJyRK5nJLbhLRAv4otNvG0QU1BaZoPVm_-ZS6bN620D_ICNGGxPtC_mwa_eKJkmlaYXC9BcMl6scvak3ts1dDGsiNmFUDlzYF165mcGHzwBpd_39iGJg8adVy28n06tqxxjG5WnK7QMIpTPuiu-W-u2iXCweKgHmREaSG05N4aTNL4ShbPAZn3PlIzRsBghtfBwM0Nd1O8aIXivIadZKXH8sUdziwlTs8eldi-nOBeRuiYRANSB-w2hkPSU4ttJl5K0Khw4hiGsCDutY2h0K2MNtDikqLLmEi-3cWrxqy3wNvFzom55nD-hckNxsAFA",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjB6alRIQ0c1a05IRHNXMWg5eEJwdCJ9.eyJpc3MiOiJodHRwczovL2ZzbmRub3JhaC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWZhMmE0YjVhYzVkOTUwMDcxOTU1NDcwIiwiYXVkIjoiYWNhZGVteSIsImlhdCI6MTYwOTA1MjQyMSwiZXhwIjoxNjA5MTM4ODIxLCJhenAiOiJOc1FCd1VtQllvTDgyNDRhUmpib3lxMkQ1UHB0S2k0MiIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmRlbGV0ZV9jb3Vyc2UiLCJnZXQ6Y291cnNlc19kZXRhaWxzIiwiZ2V0OnN0dWRlbnRzX2RldGFpbHMiLCJwYXRjaDplZGl0X2NvdXJzZSIsInBvc3Q6bmV3X2NvdXJzZSIsInBvc3Q6bmV3X3N0dWRlbnQiXX0.YDd-QZhlh1Ln9MSLO47MzRIjnaSq-VJzR4SUHp1ssQxpVG6jtxTKHoT-qbFZ4KgpToWWmWATsx95O5G6weMUz21x2e0g4P9WZ19FNZrySFCEKMPWsKHeQohfk-hC4Pi_HZsLZvC6ysRTa6LleimB8jntHOr46ooQN-dAEMYPcsNHMWC0bFTOEt3j14dfzb54f3bnrsBzTCyzAlnO3Qdn1RIz3qLLhKwXZ3zx-YQuBMhoQ6uVTeax3aqNaYWl3cSg393umKoAFarObpJATW2YI1G9LXKh-r3JeFNxnrzcByX2O8VZ_hrb35Gk5t7ZvL9XJnsBF5ccHYLAjyQOiOBWiQ",
 							"type": "string"
 						}
 					]

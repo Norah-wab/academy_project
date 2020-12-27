@@ -1,4 +1,6 @@
 # awesome-academy API
+## Project motivation
+I create the awesome academy api becasue I am in this field and I want to help the instructors to orgnaize the registration process of the student and make it eaiser for them. 
 ## Project description
 The awesome-academy system is used to store and keep track of students registration in different courses avaible in the system.
 The users can view, add, delete and upadte courses and students based on autherty as followed :-
@@ -47,7 +49,102 @@ This project avaliable on https://awesome-academy.herokuapp.com avaliable endpoi
 4- patch : https://awesome-academy.herokuapp.com/courses/2 : used to update specific course.
 5- post: https://awesome-academy.herokuapp.com/courses : used to create new course. 
 6- post: https://awesome-academy.herokuapp.com/students : used to create new student. 
-In file academyTests.postman_collection.json you find sample of request and reponse and you can use postman to run the tests. 
+### Sample request and reposnse for endpoints
+#### get courses avaliable on the system
+* sample request: 
+GET: https://awesome-academy.herokuapp.com/courses 
+JSON Body: no need for body
+* sample response: 
+{
+    "courses": [
+        {
+            "courseTimePeriod": "Night",
+            "id": 5,
+            "name": "computer sicinse"
+        },
+        {
+            "courseTimePeriod": "Morning",
+            "id": 4,
+            "name": "computer science"
+        }
+    ],
+    "success": true
+}
+#### get students avaliable on the system
+* sample request: 
+GET: https://awesome-academy.herokuapp.com/students
+JSON Body: no need for body
+* sample response: 
+{
+    "students": [
+        {
+            "id": 1,
+            "level": "secondary",
+            "name": "Abdullah"
+        }
+    ],
+    "success": true
+}
+#### create new student on the system
+* sample request: 
+POST: https://awesome-academy.herokuapp.com/students
+JSON Body: {
+    "name": "Maha",
+    "level": "secondary"
+    
+    }
+* sample response: 
+{
+    "success": true
+}
+#### create new course on the system
+* sample request: 
+POST: https://awesome-academy.herokuapp.com/courses
+JSON Body:{
+    "name": "computer sicinse",
+    "courseTimePeriod":"Afternoon"
+}
+* sample response: 
+{
+    "success": true
+}
+#### update course on the system
+* sample request: 
+PATCH: https://awesome-academy.herokuapp.com/courses/4
+JSON Body:{
+    "name": "computer science",
+    "courseTimePeriod":"Night"   
+}
+* sample response: 
+{
+    "courses": [
+        {
+            "courseTimePeriod": "Night",
+            "id": 5,
+            "name": "computer sicinse"
+        },
+        {
+            "courseTimePeriod": "Morning",
+            "id": 4,
+            "name": "computer science"
+        },
+        {
+            "courseTimePeriod": "Afternoon",
+            "id": 7,
+            "name": "computer sicinse"
+        }
+    ],
+    "success": true
+}
+#### delete course from the system
+* sample request: 
+Delete: https://awesome-academy.herokuapp.com/courses/5
+JSON Body: no need for body
+* sample response: 
+{
+    "deleted": 5,
+    "success": true
+}
 ## Error handling 
 During using  awesome-academy API you may recieve one of these:
     * 404 –-> resource not found
